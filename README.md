@@ -7,11 +7,19 @@ It should be configured to look and feel like a native app in the browser.
 
 # Design
 
-See PM for design specs. Color palette is:
+## Spec
+
+![alt text](<PNG image.png>)
+
+## Palette
 
 Black / font: #30312B
 Tan / background: #E3DCCC
 Gold / highlight & emphasis: #DEA53A
+
+## Note
+
+Should look and feel like a native iPad app in the Safari browser.
 
 # Tasks
 
