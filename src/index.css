@@ -1,8 +1,14 @@
+:root {
+  --color-text: #30312B;
+  --color-background: #E3DCCC;
+  --color-highlight: #DEA53A;
+}
+
 body {
   margin: 0;
   font-family: 'TAYBenditos', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 code {
