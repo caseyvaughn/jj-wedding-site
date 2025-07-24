@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "CircleLogo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "3000x3000"
     },
     {
-      "src": "logo512.png",
+      "src": "Dice.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "3000x3000"
     }
   ],
   "start_url": ".",
