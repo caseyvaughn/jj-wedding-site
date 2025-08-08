@@ -1,24 +1,28 @@
 :root {
-  --color-text: #30312B;
-  --color-background: #E3DCCC;
-  --color-highlight: #DEA53A;
+  --color-text: #30312b;
+  --color-background: #e3dccc;
+  --color-highlight: #dea53a;
 }
 
 body {
   margin: 0;
-  font-family: 'TAYBenditos', sans-serif;
+  font-family: "TAYBenditos", sans-serif;
   color: var(--color-text);
   background-color: var(--color-background);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+p {
+  background-color: var(--color-highlight);
+}
+
 @font-face {
-  font-family: 'TAYBenditos';
-  src: url('./fonts/TAYBenditos.otf') format('opentype');
+  font-family: "TAYBenditos";
+  src: url("./fonts/TAYBenditos.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

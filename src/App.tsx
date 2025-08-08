@@ -1,14 +1,32 @@
-import React from 'react';
-import './App.css';
-import './index.css';
+import React from "react";
+import "./App.css";
+import "./index.css";
+import { fetchNewQuestion } from "./utils.ts";
+import { QUESTIONS } from "./questions.ts";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello World! 👋</h1>
-        <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        <h1>Welcome to your personal video confessional!</h1>
+        <h3>First, start off with a hello and your name then start talking.</h3>
       </header>
+      <div className="Main-content">
+        <div>Do you have any marriage advice for the bride and groom?</div>
+      </div>
+      <div className="App-footer">
+        <img
+          src="/dice.png"
+          alt="and if you don't know what to say, roll for a prompt"
+          style={{ width: "45%", height: "fit-content" }}
+          onClick={() => fetchNewQuestion(QUESTIONS)}
+        />
+        <img
+          src="/circlelogo.png"
+          alt="good times logo"
+          style={{ width: "20%", height: "fit-content", margin: "3rem" }}
+        />
+      </div>
     </div>
   );
 }
