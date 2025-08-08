@@ -26,7 +26,8 @@ Should look and feel like a native iPad app in the Safari browser.
 - [ ] build layout
 - [ ] remove unused code and assets from `create-react-app` bootstrap
 - [x] support custom `.otf` font (`src/fonts/TayBenditos.otf`)
-- [ ] add button support
-- [ ] add list of questions for generation
+- [x] add button support
+- [x] add list of questions for generation
 - [x] update favicon (use Good Times logo, `CircleLogo.png`)
+- [ ] clear generated questions after X amount of time
 - [ ] should look and feel like native app in Safari on iPad (use correct safari directive tags)
