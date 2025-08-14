@@ -22,19 +22,19 @@ function App() {
         <h3>First, start off with a hello and your name then start talking.</h3>
       </header>
       <div className="Main-content">
-        <div>{question}</div>
+        <div className="Question">{question}</div>
       </div>
       <div className="App-footer">
         <img
           src="/dice.png"
           alt="and if you don't know what to say, roll for a prompt"
-          style={{ width: "45%", height: "fit-content" }}
+          style={{ width: "30%", height: "auto" }}
           onClick={handleClick}
         />
         <img
           src="/circlelogo.png"
           alt="good times logo"
-          style={{ width: "20%", height: "fit-content", margin: "3rem" }}
+          style={{ width: "10%", height: "auto", margin: "3rem" }}
         />
       </div>
     </div>
