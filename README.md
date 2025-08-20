@@ -1,13 +1,26 @@
 # JJ Wedding Site
 
-This is a random question generator site for Jess and Jack's wedding!
+I built a random question generator site for my friends upcoming wedding!
 
-It is a Typescript / React web app that will be run in a Safari browser on an iPad.
-It should be configured to look and feel like a native app in the browser.
+This is a Typescript / React web app that will be run in a Safari browser on an iPad. It is configured to look and feel like a native IOS app. A user can click on the dice icon to generate a new random question to use in a video confessional.
+
+The logo & designs are proprietary to GoodTimes.
+
+_Site homepage_
+
+![alt text](<PNG homepage.png>)
+
+_Random question generated from dice click_
+
+![alt text](<PNG random-question.png>)
+
+# Development
+
+`yarn start` to run the app in local development
 
 # Design
 
-## Spec
+## Specs
 
 ![alt text](<PNG image.png>)
 
@@ -16,18 +29,3 @@ It should be configured to look and feel like a native app in the browser.
 Black / font: #30312B
 Tan / background: #E3DCCC
 Gold / highlight & emphasis: #DEA53A
-
-## Note
-
-Should look and feel like a native iPad app in the Safari browser.
-
-# Tasks
-
-- [ ] build layout
-- [ ] remove unused code and assets from `create-react-app` bootstrap
-- [x] support custom `.otf` font (`src/fonts/TayBenditos.otf`)
-- [x] add button support
-- [x] add list of questions for generation
-- [x] update favicon (use Good Times logo, `CircleLogo.png`)
-- [ ] clear generated questions after X amount of time
-- [ ] should look and feel like native app in Safari on iPad (use correct safari directive tags)
